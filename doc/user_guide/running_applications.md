@@ -97,6 +97,7 @@ This repository also includes standalone C++ applications under `hailo_apps/cpp/
 | [Oriented Object Detection](../../hailo_apps/cpp/oriented_object_detection/README.md)      | Detection with rotated bounding boxes.                               |
 | [Pose Estimation](../../hailo_apps/cpp/pose_estimation/README.md)                          | Human pose estimation.                                                |
 | [Semantic Segmentation](../../hailo_apps/cpp/semantic_segmentation/README.md)              | Pixel-wise semantic segmentation (Cityscapes-style outputs).         |
+| [Simple Whisper Chat](../../hailo_apps/cpp/simple_whisper_chat/README.md)                  | Whisper speech-to-text transcription with HailoRT GenAI.             |
 | [Zero-Shot Classification](../../hailo_apps/cpp/zero_shot_classification/README.md)        | CLIP-based zero-shot image classification.                           |
 
 For C++ build and usage instructions, see [CPP Examples README](../../hailo_apps/cpp/README.md).

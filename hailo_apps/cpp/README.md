@@ -11,4 +11,5 @@
 | `onnxruntime`              | Inference with Hailo device and postprocessing via ONNXRuntime   |
 | `pose_estimation`          | Pose estimation with yolov8                                      |
 | `semantic_segmentation`    | Semantic segmentation with Resnet18_fcn (Cityscapes dataset)     |
+| `simple_whisper_chat`      | Whisper speech-to-text transcription using HailoRT GenAI         |
 | `zero_shot_classification` | Zero-shot classification with clip_vit_l14                       |
