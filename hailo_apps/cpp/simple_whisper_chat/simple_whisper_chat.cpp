@@ -263,7 +263,7 @@ int main(int argc, char **argv)
 
         const fs::path audio_path = resolve_audio_path(args.audio_path);
         std::cout << "[3/5] Loading audio file: " << audio_path.string() << '\n';
-        const auto wav_data = load_wav_as_float32_pcm16(audio_path);
+        auto wav_data = load_wav_as_float32_pcm16(audio_path);
         const double duration_sec = static_cast<double>(wav_data.frames) / static_cast<double>(wav_data.sample_rate);
         std::cout << "Audio loaded (duration: " << std::fixed << std::setprecision(2) << duration_sec
                   << "s, sample rate: " << wav_data.sample_rate
