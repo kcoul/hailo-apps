@@ -499,6 +499,7 @@ static std::string modelzoo_version_for(const std::string &hw_arch, const std::s
         {"5.1.1","v5.1.0"},
         {"5.1.2","v5.1.0"},
         {"5.2.0","v5.2.0"},
+        {"5.3.0","v5.3.0"},
     };
 
     // hailo8/8l: 4.x -> v2.xx
